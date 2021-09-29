@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    font-family:sans-serif ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+#navigation{
+    margin: auto;
+    width: 90%;
+}
+#navigation th{
+    background-color: #053366;
+    color: white;
+   padding:0 49px;
+    font-size: 18px;
+    border-radius: 15px 15px 0px 0px;
+}
+#navigation th:first-child{
+    background-color: #366492;
+    height: 30px;
+}
+#empty-div {
+    background-color: #366492;
+    height: 30px;
+    margin-top: -3px;
+}
+#main-content{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: last baseline;
+}
+#nav{
+    width: 20px;
+}
+.nav > div{ 
+    margin-bottom: 30px;
+}
+.nav-title{
+    background-color: rgb(204, 204, 204);
+    padding: 8px;
+}
+.nav-content{
+    background-color: rgb(240, 232, 232);
+    padding: 15px 0 15px 25px;
+}
+#nav-news ul{
+    list-style: none;
+}
+#nav-news .nav-content{
+    padding: 15px 0 15px 0;
+}
+.nav-news .nav-title{
+    display: flex;
+    justify-content: space-between;
+}
+.snav-right-text{
+    text-align: right;
+}
+nav >img {
+    width: 30px;
+}
+#main-contant > section{
+    width: 75%;
+}
+#send-money{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+#send-money{
+    font-weight: bolder;
+}
+#offer{
+    background-color: #053366;
+    font-size: 27px;
+    font-style: italic;
+    color: white;
+    padding: 27px;
+    width: 22%;
+    border-radius: 50%;
+    font-weight: 800;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.27);
+}
+#over-15-members{
+    text-align: center;
+}
+#sing-up-free{
+    text-align: center;
+    background-color: rgb(165, 192, 112);
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    font-size: 25px;
+}
+#spotlight{
+    background-color: rgb(204, 204, 204);
+    margin-top: 20px 0;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+.display-div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#footer-links{
+    font-size: 20px;
+    margin: 15px 0;
+}
+footer > div:last-child{
+    text-align: center;
+}
+#footer-copy-right{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#footer_images{
+    display: flex;
+    justify-content: space-around;
+}
